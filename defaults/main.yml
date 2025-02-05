@@ -11,3 +11,6 @@ _windows_exporter_msi_remote_src: true
 
 # The directory on the remote host to where the windows exporter .msi installer will be downloaded or copied to
 _windows_exporter_download_dir: 'C:\Windows\Temp'
+
+# Features to enable in windows_exporter
+_windows_exporter_enabled_collectors: [ad,adfs,cache,cpu,cpu_info,cs,container,dfsr,dhcp,dns,fsrmquota,iis,logical_disk,logon,memory,msmq,mssql,netframework_clrexceptions,netframework_clrinterop,netframework_clrjit,netframework_clrloading,netframework_clrlocksandthreads,netframework_clrmemory,netframework_clrremoting,netframework_clrsecurity,net,os,process,remote_fx,service,tcp,time,vmware]
